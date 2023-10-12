@@ -1,7 +1,7 @@
 Voidwalker[] voidheart;
 void setup() {
   size(500, 500);
-  background(0);
+  background(255);
   voidheart = new Voidwalker[10];
   for (int i=0; i<voidheart.length; i++)
     voidheart[i] = new Voidwalker();
